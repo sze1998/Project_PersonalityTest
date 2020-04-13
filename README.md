@@ -1,4 +1,5 @@
 # Project_PersonalityTest
+# Our Goal is to create a unique personality test
 The IPIP BFFM (International Personality Item Pool Big Five Factor Markers) 
 personality test is universally recognized as an established standard and assessment 
 evaluation method. The general consensus in academic psychology is that there are five fundamental 
