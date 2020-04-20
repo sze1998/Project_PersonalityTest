@@ -69,8 +69,6 @@ answerdescriptions = [
 typeScores = [0,0,0,0,0]
 questionnum = 0
 print("Welcome to the Big Five Aspect Scale Personality Test!\nProgrammed in Python by Stephen Emmons and Marcus Wren\n"+str(questionnum)+" Total Questions\n")
-print(introduction)
-print(traits)
 print(helptext)
 
 print("\n\nType a number 1-5 to represent your answer. Type 'help' to see this information again during the assessment!")
