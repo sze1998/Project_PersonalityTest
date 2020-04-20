@@ -57,11 +57,11 @@ introduction = "\n\nThis high-resolution description is one of the major advanta
     
 helptext = "\n\nDescribe yourself as you generally are now, not as you wish to be in the future.\nDescribe yourself as you honestly see yourself, in relation to other people you know of the same sex as you are, and roughly your same age.\nSo that you can describe yourself in an honest manner, your responses will be kept in absolute confidence.\n\nIndicate for each statement which answer best fits as a description of you:\n1. Very Inaccurate\n2. Moderately Inaccurate\n3. Neither Accurate Nor Inaccurate\n4. Moderately Accurate\n5. Very Accurate\n\nOnce you have submitted your answer, you will be asked to type 'y' (or 'Y') to confirm it."
 answerdescriptions = [
-    "Very Inaccurate",
-    "Moderately Inaccurate",
-    "Neither Accurate Nor Inaccurate",
-    "Moderately Accurate",
-    "Very Accurate"
+    "Strongly Disagree",
+    "Somewhat Disagree",
+    "Neither Agree or Disagree",
+    "Somewhat Agree",
+    "Strongly Agree"
 ]
 typeScores = [0,0,0,0,0]
 questionnum = 0
