@@ -1,4 +1,3 @@
-print("This high-resolution description is one of the major advantages of this testing process and its statistical procedures, and it will provide you with a very detailed understanding of exactly who you are and how you are similar to and different from the other people around you. You might find it interesting to compare your report with that of the people you are close to: friends, intimate partners and family members. Doing so will help you understand why it is that you agree with some people, and disagree with others—even about fundamental truths. Personality differences, which are profoundly affected by basic biological factors, as well as lifetime experience, help determine such things as social behavior (loner vs socialite), political belief (highly open people are more liberal), work ethic (much stronger in conscientious people), interest in people vs things (agreeableness is associated with the former), and appreciation for art and literature (associated with openness). These differences are real, and can be very large. It is crucially important to understand yourself and other people so that you can better cope with the diversity of opinion and viewpoint that makes up the personal, familial and social world.")
 
 assessment = [
     {"question":"Am the life of the party.", "type":1, "math":"+"},
@@ -53,7 +52,10 @@ assessment = [
     {"question":"Am full of ideas.", "type":5, "math":"+"}
 ]
 numquestions = len(assessment)
-helptext = "Describe yourself as you generally are now, not as you wish to be in the future.\nDescribe yourself as you honestly see yourself, in relation to other people you know of the same sex as you are, and roughly your same age.\nSo that you can describe yourself in an honest manner, your responses will be kept in absolute confidence.\n\nIndicate for each statement which answer best fits as a description of you:\n1. Very Inaccurate\n2. Moderately Inaccurate\n3. Neither Accurate Nor Inaccurate\n4. Moderately Accurate\n5. Very Accurate\n\nOnce you have submitted your answer, you will be asked to type 'y' (or 'Y') to confirm it."
+
+introduction = "\n\nThis high-resolution description is one of the major advantages of this testing process and its statistical procedures, and it will provide you with a very detailed understanding of exactly who you are and how you are similar to and different from the other people around you. You might find it interesting to compare your report with that of the people you are close to: friends, intimate partners and family members. Doing so will help you understand why it is that you agree with some people, and disagree with others—even about fundamental truths. Personality differences, which are profoundly affected by basic biological factors, as well as lifetime experience, help determine such things as social behavior (loner vs socialite), political belief (highly open people are more liberal), work ethic (much stronger in conscientious people), interest in people vs things (agreeableness is associated with the former), and appreciation for art and literature (associated with openness). These differences are real, and can be very large. It is crucially important to understand yourself and other people so that you can better cope with the diversity of opinion and viewpoint that makes up the personal, familial and social world."
+    
+helptext = "\n\nDescribe yourself as you generally are now, not as you wish to be in the future.\nDescribe yourself as you honestly see yourself, in relation to other people you know of the same sex as you are, and roughly your same age.\nSo that you can describe yourself in an honest manner, your responses will be kept in absolute confidence.\n\nIndicate for each statement which answer best fits as a description of you:\n1. Very Inaccurate\n2. Moderately Inaccurate\n3. Neither Accurate Nor Inaccurate\n4. Moderately Accurate\n5. Very Accurate\n\nOnce you have submitted your answer, you will be asked to type 'y' (or 'Y') to confirm it."
 answerdescriptions = [
     "Very Inaccurate",
     "Moderately Inaccurate",
@@ -63,8 +65,10 @@ answerdescriptions = [
 ]
 typeScores = [0,0,0,0,0]
 questionnum = 0
-print("Welcome to the IPIP Big-Five Factor Markers Assessment!\nProgrammed in Python by William Passmore\nJune 25, 2019\n"+str(questionnum)+" Total Questions\n")
+print("Welcome to the Big Five Aspect Scale Personality Test!\nProgrammed in Python by Stephen Emmons and Marcus Wren\n"+str(questionnum)+" Total Questions\n")
+print(introduction)
 print(helptext)
+
 print("\n\nType a number 1-5 to represent your answer. Type 'help' to see this information again during the assessment!")
 input("Press ENTER when you are ready to begin...\n")
 for questiondata in assessment:
