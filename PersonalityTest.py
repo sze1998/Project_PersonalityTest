@@ -1,3 +1,5 @@
+print("This high-resolution description is one of the major advantages of this testing process and its statistical procedures, and it will provide you with a very detailed understanding of exactly who you are and how you are similar to and different from the other people around you. You might find it interesting to compare your report with that of the people you are close to: friends, intimate partners and family members. Doing so will help you understand why it is that you agree with some people, and disagree with others—even about fundamental truths. Personality differences, which are profoundly affected by basic biological factors, as well as lifetime experience, help determine such things as social behavior (loner vs socialite), political belief (highly open people are more liberal), work ethic (much stronger in conscientious people), interest in people vs things (agreeableness is associated with the former), and appreciation for art and literature (associated with openness). These differences are real, and can be very large. It is crucially important to understand yourself and other people so that you can better cope with the diversity of opinion and viewpoint that makes up the personal, familial and social world.")
+
 assessment = [
     {"question":"Am the life of the party.", "type":1, "math":"+"},
     {"question":"Feel little concern for others.", "type":2, "math":"-"},
@@ -98,4 +100,7 @@ num = 0
 for type in typeinfo:
     print(type + ": " + str(typeScores[num]))
     num = num + 1
-print("\n\nThank you for taking the IPIP BFFM Assessment!\nWILLIAM PASSMORE\nWUBUR LLC\nWUBUR.COM")
+
+print("\n\nThank you for taking the Big Five Aspect Scale personality test.")
+
+
