@@ -105,6 +105,6 @@ for type in typeinfo:
     print(type + ": " + str(typeScores[num]))
     num = num + 1
 
-print("\n\nThank you for taking the Big Five Aspect Scale personality test.")
+print("\n\nThank you for taking the Big Five Aspect Scale Personality Test.")
 
 
